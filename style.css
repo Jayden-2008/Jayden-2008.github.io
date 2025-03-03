@@ -3,7 +3,7 @@
 body{
     background: rgb(107, 149, 222);
     
-    color: rgb(11, 5, 0);
+    color: rgb(236, 230, 225);
 }
 dm-serif-text-regular {
         font-family: "DM Serif Text", serif;
@@ -11,9 +11,28 @@ dm-serif-text-regular {
         font-style: normal;
       }
 h2{
-   color:azure 
+   color:rgb(231, 240, 240) 
 }
 
 nav{
-    
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a {
+    color: azure;
+    padding: 8px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: blue;
+}
+
+.github{
+    text-align: left;
 }
