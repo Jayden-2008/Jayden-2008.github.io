@@ -18,6 +18,9 @@ h2{
 nav{
     text-align: center;
 }
+nav ul {
+    padding: 0;
+}
 
 nav li {
     list-style: none;
@@ -49,7 +52,7 @@ h2 span{
     height: 300px;
     border: 8px solid black;
 }
-#Anime{
+.sub_tittle_size{
     font-size: 100px;
     color: black;
     font-weight: bolder;
@@ -64,4 +67,11 @@ h2 span{
     border-radius: 8px;
 
     
+}
+
+@media screen and (max-width: 600px) {
+     nav{
+        flex-direction: column;
+
+     }
 }
