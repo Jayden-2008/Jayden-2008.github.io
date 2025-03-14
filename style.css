@@ -11,6 +11,9 @@ dm-serif-text-regular {
         font-weight: 400;
         font-style: normal;
       }
+p{
+    text-align: center;
+}
 h2{
    color:rgb(231, 240, 240) 
 }
@@ -48,9 +51,14 @@ h2 span{
     color: black
 }
 
-.pictures{
+.anime{
     height: 250px;
-    border: 8px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.anime  img{
+    margin: 4px;
+    border: 4px solid black;
 }
 .sub_tittle_size{
     font-size: 100px;
@@ -68,12 +76,17 @@ h2 span{
 
     
 }
+.thing{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
 
-#salmon{
-    height: 250px;
-    border: 8px solid black
-    
 }
+.thing  img{
+    margin: 4px;
+    border: 8px solid black;
+}
+
 @media screen and (max-width: 600px) {
      nav{
         flex-direction: column;
