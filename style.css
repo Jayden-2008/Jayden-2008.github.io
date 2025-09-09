@@ -93,3 +93,13 @@ h2 span{
 
      }
 }
+
+.border {
+    border-bottom: dotted;
+
+}
+.personal {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+}
